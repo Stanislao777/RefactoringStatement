@@ -2,7 +2,7 @@ var fs = require('fs');
 var expect = require('chai').expect;
 var should = require('chai').should();
 
-import statement from '../statement.js';
+let statement = require('../statement');
 
 describe('Statement', function() {
   it('prints bill', function() {
